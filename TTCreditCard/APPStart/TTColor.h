@@ -9,5 +9,5 @@
 #ifndef TTColor_h
 #define TTColor_h
 
-
+#define RedColor @"#AE0000"
 #endif /* TTColor_h */
