@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0963291FFDC07000D3FAD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963281FFDC07000D3FAD1 /* AppDelegate.m */; };
+		CC09632C1FFDC07000D3FAD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC09632B1FFDC07000D3FAD1 /* ViewController.m */; };
+		CC09632F1FFDC07000D3FAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC09632D1FFDC07000D3FAD1 /* Main.storyboard */; };
+		CC0963311FFDC07000D3FAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0963301FFDC07000D3FAD1 /* Assets.xcassets */; };
+		CC0963341FFDC07000D3FAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0963321FFDC07000D3FAD1 /* LaunchScreen.storyboard */; };
+		CC0963371FFDC07000D3FAD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963361FFDC07000D3FAD1 /* main.m */; };
+		CC0963411FFDC07000D3FAD1 /* TTCreditCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963401FFDC07000D3FAD1 /* TTCreditCardTests.m */; };
+		CC09634C1FFDC07000D3FAD1 /* TTCreditCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC09634B1FFDC07000D3FAD1 /* TTCreditCardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC09633D1FFDC07000D3FAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC09631C1FFDC06F00D3FAD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0963231FFDC07000D3FAD1;
+			remoteInfo = TTCreditCard;
+		};
+		CC0963481FFDC07000D3FAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC09631C1FFDC06F00D3FAD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0963231FFDC07000D3FAD1;
+			remoteInfo = TTCreditCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC0963241FFDC07000D3FAD1 /* TTCreditCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCreditCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0963271FFDC07000D3FAD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC0963281FFDC07000D3FAD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC09632A1FFDC07000D3FAD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC09632B1FFDC07000D3FAD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC09632E1FFDC07000D3FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC0963301FFDC07000D3FAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0963331FFDC07000D3FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC0963351FFDC07000D3FAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0963361FFDC07000D3FAD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC09633C1FFDC07000D3FAD1 /* TTCreditCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCreditCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0963401FFDC07000D3FAD1 /* TTCreditCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCreditCardTests.m; sourceTree = "<group>"; };
+		CC0963421FFDC07000D3FAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0963471FFDC07000D3FAD1 /* TTCreditCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCreditCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC09634B1FFDC07000D3FAD1 /* TTCreditCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCreditCardUITests.m; sourceTree = "<group>"; };
+		CC09634D1FFDC07000D3FAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0963211FFDC07000D3FAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0963391FFDC07000D3FAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0963441FFDC07000D3FAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC09631B1FFDC06F00D3FAD1 = {
+			isa = PBXGroup;
+			children = (
+				CC0963261FFDC07000D3FAD1 /* TTCreditCard */,
+				CC09633F1FFDC07000D3FAD1 /* TTCreditCardTests */,
+				CC09634A1FFDC07000D3FAD1 /* TTCreditCardUITests */,
+				CC0963251FFDC07000D3FAD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0963251FFDC07000D3FAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0963241FFDC07000D3FAD1 /* TTCreditCard.app */,
+				CC09633C1FFDC07000D3FAD1 /* TTCreditCardTests.xctest */,
+				CC0963471FFDC07000D3FAD1 /* TTCreditCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0963261FFDC07000D3FAD1 /* TTCreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				CC0963271FFDC07000D3FAD1 /* AppDelegate.h */,
+				CC0963281FFDC07000D3FAD1 /* AppDelegate.m */,
+				CC09632A1FFDC07000D3FAD1 /* ViewController.h */,
+				CC09632B1FFDC07000D3FAD1 /* ViewController.m */,
+				CC09632D1FFDC07000D3FAD1 /* Main.storyboard */,
+				CC0963301FFDC07000D3FAD1 /* Assets.xcassets */,
+				CC0963321FFDC07000D3FAD1 /* LaunchScreen.storyboard */,
+				CC0963351FFDC07000D3FAD1 /* Info.plist */,
+				CC0963361FFDC07000D3FAD1 /* main.m */,
+			);
+			path = TTCreditCard;
+			sourceTree = "<group>";
+		};
+		CC09633F1FFDC07000D3FAD1 /* TTCreditCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0963401FFDC07000D3FAD1 /* TTCreditCardTests.m */,
+				CC0963421FFDC07000D3FAD1 /* Info.plist */,
+			);
+			path = TTCreditCardTests;
+			sourceTree = "<group>";
+		};
+		CC09634A1FFDC07000D3FAD1 /* TTCreditCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC09634B1FFDC07000D3FAD1 /* TTCreditCardUITests.m */,
+				CC09634D1FFDC07000D3FAD1 /* Info.plist */,
+			);
+			path = TTCreditCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0963231FFDC07000D3FAD1 /* TTCreditCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0963501FFDC07000D3FAD1 /* Build configuration list for PBXNativeTarget "TTCreditCard" */;
+			buildPhases = (
+				CC0963201FFDC07000D3FAD1 /* Sources */,
+				CC0963211FFDC07000D3FAD1 /* Frameworks */,
+				CC0963221FFDC07000D3FAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTCreditCard;
+			productName = TTCreditCard;
+			productReference = CC0963241FFDC07000D3FAD1 /* TTCreditCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC09633B1FFDC07000D3FAD1 /* TTCreditCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0963531FFDC07000D3FAD1 /* Build configuration list for PBXNativeTarget "TTCreditCardTests" */;
+			buildPhases = (
+				CC0963381FFDC07000D3FAD1 /* Sources */,
+				CC0963391FFDC07000D3FAD1 /* Frameworks */,
+				CC09633A1FFDC07000D3FAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC09633E1FFDC07000D3FAD1 /* PBXTargetDependency */,
+			);
+			name = TTCreditCardTests;
+			productName = TTCreditCardTests;
+			productReference = CC09633C1FFDC07000D3FAD1 /* TTCreditCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC0963461FFDC07000D3FAD1 /* TTCreditCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0963561FFDC07000D3FAD1 /* Build configuration list for PBXNativeTarget "TTCreditCardUITests" */;
+			buildPhases = (
+				CC0963431FFDC07000D3FAD1 /* Sources */,
+				CC0963441FFDC07000D3FAD1 /* Frameworks */,
+				CC0963451FFDC07000D3FAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0963491FFDC07000D3FAD1 /* PBXTargetDependency */,
+			);
+			name = TTCreditCardUITests;
+			productName = TTCreditCardUITests;
+			productReference = CC0963471FFDC07000D3FAD1 /* TTCreditCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC09631C1FFDC06F00D3FAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "妥妥";
+				TargetAttributes = {
+					CC0963231FFDC07000D3FAD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CC09633B1FFDC07000D3FAD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC0963231FFDC07000D3FAD1;
+					};
+					CC0963461FFDC07000D3FAD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC0963231FFDC07000D3FAD1;
+					};
+				};
+			};
+			buildConfigurationList = CC09631F1FFDC06F00D3FAD1 /* Build configuration list for PBXProject "TTCreditCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC09631B1FFDC06F00D3FAD1;
+			productRefGroup = CC0963251FFDC07000D3FAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0963231FFDC07000D3FAD1 /* TTCreditCard */,
+				CC09633B1FFDC07000D3FAD1 /* TTCreditCardTests */,
+				CC0963461FFDC07000D3FAD1 /* TTCreditCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0963221FFDC07000D3FAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0963341FFDC07000D3FAD1 /* LaunchScreen.storyboard in Resources */,
+				CC0963311FFDC07000D3FAD1 /* Assets.xcassets in Resources */,
+				CC09632F1FFDC07000D3FAD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC09633A1FFDC07000D3FAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0963451FFDC07000D3FAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0963201FFDC07000D3FAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC09632C1FFDC07000D3FAD1 /* ViewController.m in Sources */,
+				CC0963371FFDC07000D3FAD1 /* main.m in Sources */,
+				CC0963291FFDC07000D3FAD1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0963381FFDC07000D3FAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0963411FFDC07000D3FAD1 /* TTCreditCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0963431FFDC07000D3FAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC09634C1FFDC07000D3FAD1 /* TTCreditCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC09633E1FFDC07000D3FAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0963231FFDC07000D3FAD1 /* TTCreditCard */;
+			targetProxy = CC09633D1FFDC07000D3FAD1 /* PBXContainerItemProxy */;
+		};
+		CC0963491FFDC07000D3FAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0963231FFDC07000D3FAD1 /* TTCreditCard */;
+			targetProxy = CC0963481FFDC07000D3FAD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC09632D1FFDC07000D3FAD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC09632E1FFDC07000D3FAD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC0963321FFDC07000D3FAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0963331FFDC07000D3FAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC09634E1FFDC07000D3FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC09634F1FFDC07000D3FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0963511FFDC07000D3FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LM8ESFRBK;
+				INFOPLIST_FILE = TTCreditCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tuotuo.com.TTCreditCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0963521FFDC07000D3FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LM8ESFRBK;
+				INFOPLIST_FILE = TTCreditCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tuotuo.com.TTCreditCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC0963541FFDC07000D3FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LM8ESFRBK;
+				INFOPLIST_FILE = TTCreditCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tuotuo.com.TTCreditCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTCreditCard.app/TTCreditCard";
+			};
+			name = Debug;
+		};
+		CC0963551FFDC07000D3FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LM8ESFRBK;
+				INFOPLIST_FILE = TTCreditCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tuotuo.com.TTCreditCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTCreditCard.app/TTCreditCard";
+			};
+			name = Release;
+		};
+		CC0963571FFDC07000D3FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LM8ESFRBK;
+				INFOPLIST_FILE = TTCreditCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tuotuo.com.TTCreditCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTCreditCard;
+			};
+			name = Debug;
+		};
+		CC0963581FFDC07000D3FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LM8ESFRBK;
+				INFOPLIST_FILE = TTCreditCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tuotuo.com.TTCreditCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTCreditCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC09631F1FFDC06F00D3FAD1 /* Build configuration list for PBXProject "TTCreditCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC09634E1FFDC07000D3FAD1 /* Debug */,
+				CC09634F1FFDC07000D3FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0963501FFDC07000D3FAD1 /* Build configuration list for PBXNativeTarget "TTCreditCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0963511FFDC07000D3FAD1 /* Debug */,
+				CC0963521FFDC07000D3FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0963531FFDC07000D3FAD1 /* Build configuration list for PBXNativeTarget "TTCreditCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0963541FFDC07000D3FAD1 /* Debug */,
+				CC0963551FFDC07000D3FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0963561FFDC07000D3FAD1 /* Build configuration list for PBXNativeTarget "TTCreditCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0963571FFDC07000D3FAD1 /* Debug */,
+				CC0963581FFDC07000D3FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC09631C1FFDC06F00D3FAD1 /* Project object */;
+}
