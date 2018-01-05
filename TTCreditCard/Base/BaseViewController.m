@@ -19,6 +19,7 @@
     [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
     self.navigationController.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor]};
     self.view.backgroundColor = [UIColor RGBcolor:@"#f3f2f0"];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -48,4 +49,5 @@
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
 @end

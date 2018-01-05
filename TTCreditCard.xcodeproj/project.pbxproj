@@ -58,6 +58,19 @@
 		CC0963F91FFDCD2400D3FAD1 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963F81FFDCD2400D3FAD1 /* PersonViewController.m */; };
 		CC0963FB1FFDCDFF00D3FAD1 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0963FA1FFDCDFE00D3FAD1 /* libxml2.2.tbd */; };
 		CC0963FD1FFDCE5100D3FAD1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */; };
+		CCDEBDA21FFF4DFE00F1777C /* DetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */; };
+		CCDEBDA51FFF516B00F1777C /* apic3734.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA41FFF516B00F1777C /* apic3734.png */; };
+		CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA61FFF519700F1777C /* personal-center@3x.png */; };
+		CCDEBDAD1FFF541400F1777C /* AppDelegate+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDAA1FFF541400F1777C /* AppDelegate+Download.m */; };
+		CCDEBDAE1FFF541400F1777C /* QSPDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDAC1FFF541400F1777C /* QSPDownloadTool.m */; };
+		CCDEBDB11FFF543F00F1777C /* TTDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDB01FFF543F00F1777C /* TTDownloadViewController.m */; };
+		CCDEBDCD1FFF668200F1777C /* XHSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDC81FFF668200F1777C /* XHSegmentControl.m */; };
+		CCDEBDCE1FFF668200F1777C /* XHSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDCA1FFF668200F1777C /* XHSegmentItem.m */; };
+		CCDEBDCF1FFF668200F1777C /* XHSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDCC1FFF668200F1777C /* XHSegmentViewController.m */; };
+		CCDEBDD21FFF6ADA00F1777C /* SegmentSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDD11FFF6ADA00F1777C /* SegmentSampleViewController.m */; };
+		CCDEBDD51FFF71F000F1777C /* DownLoadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDD41FFF71F000F1777C /* DownLoadCell.m */; };
+		CCDEBDD81FFF73D800F1777C /* DownloadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDD71FFF73D800F1777C /* DownloadTableViewController.m */; };
+		CCDEBDDB1FFF73EB00F1777C /* OutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDDA1FFF73EB00F1777C /* OutTableViewController.m */; };
 		F9D4890E969FA3FBFC9D67C8 /* Pods_TTCreditCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649346E90A456D8A8EBDE859 /* Pods_TTCreditCard.framework */; };
 /* End PBXBuildFile section */
 
@@ -181,6 +194,30 @@
 		CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		CC0963FE1FFDD43000D3FAD1 /* TTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTColor.h; sourceTree = "<group>"; };
 		CC0963FF1FFDD50400D3FAD1 /* TTScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTScreen.h; sourceTree = "<group>"; };
+		CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedView.m; sourceTree = "<group>"; };
+		CCDEBDA11FFF4DFE00F1777C /* DetailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedView.h; sourceTree = "<group>"; };
+		CCDEBDA41FFF516B00F1777C /* apic3734.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apic3734.png; sourceTree = "<group>"; };
+		CCDEBDA61FFF519700F1777C /* personal-center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personal-center@3x.png"; sourceTree = "<group>"; };
+		CCDEBDA91FFF541400F1777C /* AppDelegate+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Download.h"; sourceTree = "<group>"; };
+		CCDEBDAA1FFF541400F1777C /* AppDelegate+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Download.m"; sourceTree = "<group>"; };
+		CCDEBDAB1FFF541400F1777C /* QSPDownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSPDownloadTool.h; sourceTree = "<group>"; };
+		CCDEBDAC1FFF541400F1777C /* QSPDownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSPDownloadTool.m; sourceTree = "<group>"; };
+		CCDEBDAF1FFF543F00F1777C /* TTDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTDownloadViewController.h; sourceTree = "<group>"; };
+		CCDEBDB01FFF543F00F1777C /* TTDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDownloadViewController.m; sourceTree = "<group>"; };
+		CCDEBDC71FFF668200F1777C /* XHSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSegmentControl.h; sourceTree = "<group>"; };
+		CCDEBDC81FFF668200F1777C /* XHSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSegmentControl.m; sourceTree = "<group>"; };
+		CCDEBDC91FFF668200F1777C /* XHSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSegmentItem.h; sourceTree = "<group>"; };
+		CCDEBDCA1FFF668200F1777C /* XHSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSegmentItem.m; sourceTree = "<group>"; };
+		CCDEBDCB1FFF668200F1777C /* XHSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSegmentViewController.h; sourceTree = "<group>"; };
+		CCDEBDCC1FFF668200F1777C /* XHSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSegmentViewController.m; sourceTree = "<group>"; };
+		CCDEBDD01FFF6AD900F1777C /* SegmentSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentSampleViewController.h; sourceTree = "<group>"; };
+		CCDEBDD11FFF6ADA00F1777C /* SegmentSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentSampleViewController.m; sourceTree = "<group>"; };
+		CCDEBDD31FFF71F000F1777C /* DownLoadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadCell.h; sourceTree = "<group>"; };
+		CCDEBDD41FFF71F000F1777C /* DownLoadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadCell.m; sourceTree = "<group>"; };
+		CCDEBDD61FFF73D800F1777C /* DownloadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadTableViewController.h; sourceTree = "<group>"; };
+		CCDEBDD71FFF73D800F1777C /* DownloadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadTableViewController.m; sourceTree = "<group>"; };
+		CCDEBDD91FFF73EB00F1777C /* OutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutTableViewController.h; sourceTree = "<group>"; };
+		CCDEBDDA1FFF73EB00F1777C /* OutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +331,7 @@
 		CC09635D1FFDC4FB00D3FAD1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CCDEBD9C1FFF4C4400F1777C /* TTDownload */,
 				CC09635E1FFDC4FB00D3FAD1 /* Accounts */,
 				CC0963621FFDC4FB00D3FAD1 /* Apply */,
 				CC0963661FFDC4FB00D3FAD1 /* Home */,
@@ -430,6 +468,8 @@
 		CC09636D1FFDC4FB00D3FAD1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CCDEBDA11FFF4DFE00F1777C /* DetailedView.h */,
+				CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -467,6 +507,8 @@
 		CC0963781FFDC5FE00D3FAD1 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				CCDEBDC61FFF668200F1777C /* XHSegmentController */,
+				CCDEBDA81FFF541400F1777C /* QSPDownload */,
 				CC0963791FFDC5FE00D3FAD1 /* JQScan */,
 				CC09639B1FFDC5FE00D3FAD1 /* LinkLabel */,
 				CC0963A21FFDC5FE00D3FAD1 /* WYPick */,
@@ -602,8 +644,83 @@
 		CC0964001FFDE6F700D3FAD1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CCDEBDA31FFF516B00F1777C /* Default */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		CCDEBD9C1FFF4C4400F1777C /* TTDownload */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBD9D1FFF4C4400F1777C /* Controller */,
+				CCDEBD9E1FFF4C4400F1777C /* Model */,
+				CCDEBD9F1FFF4C4400F1777C /* View */,
+			);
+			path = TTDownload;
+			sourceTree = "<group>";
+		};
+		CCDEBD9D1FFF4C4400F1777C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBDD01FFF6AD900F1777C /* SegmentSampleViewController.h */,
+				CCDEBDD11FFF6ADA00F1777C /* SegmentSampleViewController.m */,
+				CCDEBDD61FFF73D800F1777C /* DownloadTableViewController.h */,
+				CCDEBDD71FFF73D800F1777C /* DownloadTableViewController.m */,
+				CCDEBDD91FFF73EB00F1777C /* OutTableViewController.h */,
+				CCDEBDDA1FFF73EB00F1777C /* OutTableViewController.m */,
+				CCDEBDAF1FFF543F00F1777C /* TTDownloadViewController.h */,
+				CCDEBDB01FFF543F00F1777C /* TTDownloadViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCDEBD9E1FFF4C4400F1777C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCDEBD9F1FFF4C4400F1777C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBDD31FFF71F000F1777C /* DownLoadCell.h */,
+				CCDEBDD41FFF71F000F1777C /* DownLoadCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCDEBDA31FFF516B00F1777C /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBDA61FFF519700F1777C /* personal-center@3x.png */,
+				CCDEBDA41FFF516B00F1777C /* apic3734.png */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		CCDEBDA81FFF541400F1777C /* QSPDownload */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBDA91FFF541400F1777C /* AppDelegate+Download.h */,
+				CCDEBDAA1FFF541400F1777C /* AppDelegate+Download.m */,
+				CCDEBDAB1FFF541400F1777C /* QSPDownloadTool.h */,
+				CCDEBDAC1FFF541400F1777C /* QSPDownloadTool.m */,
+			);
+			path = QSPDownload;
+			sourceTree = "<group>";
+		};
+		CCDEBDC61FFF668200F1777C /* XHSegmentController */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBDC71FFF668200F1777C /* XHSegmentControl.h */,
+				CCDEBDC81FFF668200F1777C /* XHSegmentControl.m */,
+				CCDEBDC91FFF668200F1777C /* XHSegmentItem.h */,
+				CCDEBDCA1FFF668200F1777C /* XHSegmentItem.m */,
+				CCDEBDCB1FFF668200F1777C /* XHSegmentViewController.h */,
+				CCDEBDCC1FFF668200F1777C /* XHSegmentViewController.m */,
+			);
+			path = XHSegmentController;
 			sourceTree = "<group>";
 		};
 		EE19FC151209EC99C6B34E54 /* Pods */ = {
@@ -724,11 +841,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDEBDA51FFF516B00F1777C /* apic3734.png in Resources */,
 				CC0963341FFDC07000D3FAD1 /* LaunchScreen.storyboard in Resources */,
 				CC0963E11FFDC5FE00D3FAD1 /* 返回@3x.png in Resources */,
 				CC0963C61FFDC5FE00D3FAD1 /* JQScanResultViewController.xib in Resources */,
 				CC0963C41FFDC5FE00D3FAD1 /* CodeScan.bundle in Resources */,
 				CC0963311FFDC07000D3FAD1 /* Assets.xcassets in Resources */,
+				CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */,
 				CC0963C81FFDC5FE00D3FAD1 /* JQTest.png in Resources */,
 				CC0963D81FFDC5FE00D3FAD1 /* CityData.plist in Resources */,
 				CC0963E01FFDC5FE00D3FAD1 /* 返回@2x.png in Resources */,
@@ -833,6 +952,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0963D01FFDC5FE00D3FAD1 /* JQScanViewStyle.m in Sources */,
+				CCDEBDD51FFF71F000F1777C /* DownLoadCell.m in Sources */,
 				CC0963CB1FFDC5FE00D3FAD1 /* JQScanNative.m in Sources */,
 				CC0963371FFDC07000D3FAD1 /* main.m in Sources */,
 				CC0963C51FFDC5FE00D3FAD1 /* JQScanResultViewController.m in Sources */,
@@ -842,11 +962,14 @@
 				CC0963D21FFDC5FE00D3FAD1 /* JQZXCapture.m in Sources */,
 				CC0963D91FFDC5FE00D3FAD1 /* NicknameViewController.m in Sources */,
 				CC0963E61FFDC5FE00D3FAD1 /* TKDataService.m in Sources */,
+				CCDEBDB11FFF543F00F1777C /* TTDownloadViewController.m in Sources */,
 				CC0963DD1FFDC5FE00D3FAD1 /* WYGenderPickerView.m in Sources */,
+				CCDEBDCF1FFF668200F1777C /* XHSegmentViewController.m in Sources */,
 				CC0963E51FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.m in Sources */,
 				CC0963C71FFDC5FE00D3FAD1 /* JQScanViewController.m in Sources */,
 				CC0963E91FFDC69600D3FAD1 /* TTRootViewController.m in Sources */,
 				CC0963DE1FFDC5FE00D3FAD1 /* WYHeightPickerView.m in Sources */,
+				CCDEBDAD1FFF541400F1777C /* AppDelegate+Download.m in Sources */,
 				CC0963CD1FFDC5FE00D3FAD1 /* JQScanResult.m in Sources */,
 				CC0963711FFDC5AB00D3FAD1 /* BaseViewController.m in Sources */,
 				CC0963F91FFDCD2400D3FAD1 /* PersonViewController.m in Sources */,
@@ -854,19 +977,26 @@
 				CC0963CF1FFDC5FE00D3FAD1 /* JQScanView.m in Sources */,
 				CC0963D31FFDC5FE00D3FAD1 /* JQZXingWrapper.m in Sources */,
 				CC0963DF1FFDC5FE00D3FAD1 /* WYLongTextInputView.m in Sources */,
+				CCDEBDDB1FFF73EB00F1777C /* OutTableViewController.m in Sources */,
 				CC0963D41FFDC5FE00D3FAD1 /* JQZXScanViewController.m in Sources */,
 				CC0963DA1FFDC5FE00D3FAD1 /* SignatureViewController.m in Sources */,
+				CCDEBDA21FFF4DFE00F1777C /* DetailedView.m in Sources */,
 				CC0963DC1FFDC5FE00D3FAD1 /* WYCityPickerView.m in Sources */,
+				CCDEBDD21FFF6ADA00F1777C /* SegmentSampleViewController.m in Sources */,
 				CC0963F01FFDCC2C00D3FAD1 /* HomeViewController.m in Sources */,
+				CCDEBDAE1FFF541400F1777C /* QSPDownloadTool.m in Sources */,
+				CCDEBDCD1FFF668200F1777C /* XHSegmentControl.m in Sources */,
 				CC0963D71FFDC5FE00D3FAD1 /* NSString+CXAHyperlinkParser.m in Sources */,
 				CC0963D61FFDC5FE00D3FAD1 /* NSAttributedString+CXACoreTextFrameSize.m in Sources */,
 				CC0963C31FFDC5FE00D3FAD1 /* UIImage+Verb.m in Sources */,
 				CC09635C1FFDC3EC00D3FAD1 /* AppDelegate.m in Sources */,
 				CC0963E21FFDC5FE00D3FAD1 /* WYTableViewCellWithBigImageView.m in Sources */,
+				CCDEBDD81FFF73D800F1777C /* DownloadTableViewController.m in Sources */,
 				CC0963E41FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m in Sources */,
 				CC0963CE1FFDC5FE00D3FAD1 /* JQScanVideoZoomView.m in Sources */,
 				CC0963D11FFDC5FE00D3FAD1 /* JQScanWrapper.m in Sources */,
 				CC0963CA1FFDC5FE00D3FAD1 /* JQScanLineAnimation.m in Sources */,
+				CCDEBDCE1FFF668200F1777C /* XHSegmentItem.m in Sources */,
 				CC0963C21FFDC5FE00D3FAD1 /* UIColor+RGB.m in Sources */,
 				CC0963F61FFDCCBE00D3FAD1 /* ApplyViewController.m in Sources */,
 				CC0963CC1FFDC5FE00D3FAD1 /* JQScanNetAnimation.m in Sources */,

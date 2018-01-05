@@ -23,6 +23,7 @@
 #import "YJProgressHUD.h"
 #import "LEEAlert.h"
 #import "SDImageCache.h"
+#import "QSPDownloadTool.h"
 /*#############################################################*/
 #pragma mark - 自定义类
 #import "UIImage+Verb.h"
