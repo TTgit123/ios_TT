@@ -14,4 +14,5 @@ pod 'Masonry'
 pod ‘LBXScan’
 pod 'YJProgressHUD'
 pod 'LEEAlert'
+pod 'WebViewJavascriptBridge'
 end

@@ -8,12 +8,13 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+
 /*#############################################################*/
-#pragma mark - 公共宏定义
-//服务器地址
-#define URLHEAD @"http://www.yth996.com:8080/"
-//屏幕相关
-#import "TTScreen.h"
+#pragma mark - 宏定义
+//公共宏定义
+#import "TTPublic.h"
+//适配相关
+#import "TTCode.h"
 //颜色色值
 #import "TTColor.h"
 /*#############################################################*/
@@ -24,6 +25,7 @@
 #import "LEEAlert.h"
 #import "SDImageCache.h"
 #import "QSPDownloadTool.h"
+#import "WebViewJavascriptBridge.h"
 /*#############################################################*/
 #pragma mark - 自定义类
 #import "UIImage+Verb.h"

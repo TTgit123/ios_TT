@@ -17,14 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // 设置Window的背景颜色
-    self.window.backgroundColor = [UIColor whiteColor];
-    
-    // 设置根控制器
-    TTRootViewController *vc = [[TTRootViewController alloc] init];
-    self.window.rootViewController = vc;
-    // 设置并显示主窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    TTRootViewController *tabBarVc = [[TTRootViewController alloc] init];
+    CATransition *anim = [[CATransition alloc] init];
+    anim.type = @"rippleEffect";
+    anim.duration = 1.0;
+    [self.window.layer addAnimation:anim forKey:nil];
+    self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];
     return YES;
 }

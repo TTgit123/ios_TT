@@ -71,6 +71,11 @@
 		CCDEBDD51FFF71F000F1777C /* DownLoadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDD41FFF71F000F1777C /* DownLoadCell.m */; };
 		CCDEBDD81FFF73D800F1777C /* DownloadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDD71FFF73D800F1777C /* DownloadTableViewController.m */; };
 		CCDEBDDB1FFF73EB00F1777C /* OutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDDA1FFF73EB00F1777C /* OutTableViewController.m */; };
+		CCDEBDE020005FD500F1777C /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDDE20005FD500F1777C /* UIImage+Image.m */; };
+		CCDEBDE120005FD500F1777C /* UIView+LBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDDF20005FD500F1777C /* UIView+LBExtension.m */; };
+		CCDEBDE42000604A00F1777C /* LBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDE32000604A00F1777C /* LBTabBar.m */; };
+		CCDEBDE72000654100F1777C /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDE62000654100F1777C /* BaseNavigationViewController.m */; };
+		CCDEBDEE20009EB500F1777C /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDED20009EB500F1777C /* HFStretchableTableHeaderView.m */; };
 		F9D4890E969FA3FBFC9D67C8 /* Pods_TTCreditCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649346E90A456D8A8EBDE859 /* Pods_TTCreditCard.framework */; };
 /* End PBXBuildFile section */
 
@@ -193,7 +198,6 @@
 		CC0963FA1FFDCDFE00D3FAD1 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		CC0963FE1FFDD43000D3FAD1 /* TTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTColor.h; sourceTree = "<group>"; };
-		CC0963FF1FFDD50400D3FAD1 /* TTScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTScreen.h; sourceTree = "<group>"; };
 		CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedView.m; sourceTree = "<group>"; };
 		CCDEBDA11FFF4DFE00F1777C /* DetailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedView.h; sourceTree = "<group>"; };
 		CCDEBDA41FFF516B00F1777C /* apic3734.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apic3734.png; sourceTree = "<group>"; };
@@ -218,6 +222,18 @@
 		CCDEBDD71FFF73D800F1777C /* DownloadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadTableViewController.m; sourceTree = "<group>"; };
 		CCDEBDD91FFF73EB00F1777C /* OutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutTableViewController.h; sourceTree = "<group>"; };
 		CCDEBDDA1FFF73EB00F1777C /* OutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutTableViewController.m; sourceTree = "<group>"; };
+		CCDEBDDC20005FD400F1777C /* UIView+LBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LBExtension.h"; sourceTree = "<group>"; };
+		CCDEBDDD20005FD500F1777C /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		CCDEBDDE20005FD500F1777C /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		CCDEBDDF20005FD500F1777C /* UIView+LBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LBExtension.m"; sourceTree = "<group>"; };
+		CCDEBDE22000604A00F1777C /* LBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBar.h; sourceTree = "<group>"; };
+		CCDEBDE32000604A00F1777C /* LBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBar.m; sourceTree = "<group>"; };
+		CCDEBDE52000654100F1777C /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		CCDEBDE62000654100F1777C /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		CCDEBDE82000837100F1777C /* TTPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTPublic.h; sourceTree = "<group>"; };
+		CCDEBDEA2000859D00F1777C /* TTCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTCode.h; sourceTree = "<group>"; };
+		CCDEBDEC20009EB500F1777C /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		CCDEBDED20009EB500F1777C /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,9 +337,12 @@
 				CC09635B1FFDC3EC00D3FAD1 /* AppDelegate.m */,
 				CC0963E71FFDC69600D3FAD1 /* TTRootViewController.h */,
 				CC0963E81FFDC69600D3FAD1 /* TTRootViewController.m */,
+				CCDEBDE22000604A00F1777C /* LBTabBar.h */,
+				CCDEBDE32000604A00F1777C /* LBTabBar.m */,
 				CC0963ED1FFDCA0700D3FAD1 /* PrefixHeader.pch */,
 				CC0963FE1FFDD43000D3FAD1 /* TTColor.h */,
-				CC0963FF1FFDD50400D3FAD1 /* TTScreen.h */,
+				CCDEBDE82000837100F1777C /* TTPublic.h */,
+				CCDEBDEA2000859D00F1777C /* TTCode.h */,
 			);
 			path = APPStart;
 			sourceTree = "<group>";
@@ -479,6 +498,8 @@
 			children = (
 				CC09636F1FFDC5AA00D3FAD1 /* BaseViewController.h */,
 				CC0963701FFDC5AA00D3FAD1 /* BaseViewController.m */,
+				CCDEBDE52000654100F1777C /* BaseNavigationViewController.h */,
+				CCDEBDE62000654100F1777C /* BaseNavigationViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -496,6 +517,10 @@
 		CC0963731FFDC5FE00D3FAD1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CCDEBDDD20005FD500F1777C /* UIImage+Image.h */,
+				CCDEBDDE20005FD500F1777C /* UIImage+Image.m */,
+				CCDEBDDC20005FD400F1777C /* UIView+LBExtension.h */,
+				CCDEBDDF20005FD500F1777C /* UIView+LBExtension.m */,
 				CC0963741FFDC5FE00D3FAD1 /* UIColor+RGB.h */,
 				CC0963751FFDC5FE00D3FAD1 /* UIColor+RGB.m */,
 				CC0963761FFDC5FE00D3FAD1 /* UIImage+Verb.h */,
@@ -507,6 +532,7 @@
 		CC0963781FFDC5FE00D3FAD1 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				CCDEBDEB20009EB500F1777C /* stretchTableHeader */,
 				CCDEBDC61FFF668200F1777C /* XHSegmentController */,
 				CCDEBDA81FFF541400F1777C /* QSPDownload */,
 				CC0963791FFDC5FE00D3FAD1 /* JQScan */,
@@ -723,6 +749,15 @@
 			path = XHSegmentController;
 			sourceTree = "<group>";
 		};
+		CCDEBDEB20009EB500F1777C /* stretchTableHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEBDEC20009EB500F1777C /* HFStretchableTableHeaderView.h */,
+				CCDEBDED20009EB500F1777C /* HFStretchableTableHeaderView.m */,
+			);
+			path = stretchTableHeader;
+			sourceTree = "<group>";
+		};
 		EE19FC151209EC99C6B34E54 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -902,6 +937,7 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/YJProgressHUD/YJProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ZBarSDK/ZBarSDK.framework",
@@ -917,6 +953,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBarSDK.framework",
@@ -976,7 +1013,9 @@
 				CC0963D51FFDC5FE00D3FAD1 /* CXAHyperlinkLabel.m in Sources */,
 				CC0963CF1FFDC5FE00D3FAD1 /* JQScanView.m in Sources */,
 				CC0963D31FFDC5FE00D3FAD1 /* JQZXingWrapper.m in Sources */,
+				CCDEBDE72000654100F1777C /* BaseNavigationViewController.m in Sources */,
 				CC0963DF1FFDC5FE00D3FAD1 /* WYLongTextInputView.m in Sources */,
+				CCDEBDE120005FD500F1777C /* UIView+LBExtension.m in Sources */,
 				CCDEBDDB1FFF73EB00F1777C /* OutTableViewController.m in Sources */,
 				CC0963D41FFDC5FE00D3FAD1 /* JQZXScanViewController.m in Sources */,
 				CC0963DA1FFDC5FE00D3FAD1 /* SignatureViewController.m in Sources */,
@@ -985,14 +1024,17 @@
 				CCDEBDD21FFF6ADA00F1777C /* SegmentSampleViewController.m in Sources */,
 				CC0963F01FFDCC2C00D3FAD1 /* HomeViewController.m in Sources */,
 				CCDEBDAE1FFF541400F1777C /* QSPDownloadTool.m in Sources */,
+				CCDEBDEE20009EB500F1777C /* HFStretchableTableHeaderView.m in Sources */,
 				CCDEBDCD1FFF668200F1777C /* XHSegmentControl.m in Sources */,
 				CC0963D71FFDC5FE00D3FAD1 /* NSString+CXAHyperlinkParser.m in Sources */,
+				CCDEBDE42000604A00F1777C /* LBTabBar.m in Sources */,
 				CC0963D61FFDC5FE00D3FAD1 /* NSAttributedString+CXACoreTextFrameSize.m in Sources */,
 				CC0963C31FFDC5FE00D3FAD1 /* UIImage+Verb.m in Sources */,
 				CC09635C1FFDC3EC00D3FAD1 /* AppDelegate.m in Sources */,
 				CC0963E21FFDC5FE00D3FAD1 /* WYTableViewCellWithBigImageView.m in Sources */,
 				CCDEBDD81FFF73D800F1777C /* DownloadTableViewController.m in Sources */,
 				CC0963E41FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m in Sources */,
+				CCDEBDE020005FD500F1777C /* UIImage+Image.m in Sources */,
 				CC0963CE1FFDC5FE00D3FAD1 /* JQScanVideoZoomView.m in Sources */,
 				CC0963D11FFDC5FE00D3FAD1 /* JQScanWrapper.m in Sources */,
 				CC0963CA1FFDC5FE00D3FAD1 /* JQScanLineAnimation.m in Sources */,
@@ -1156,13 +1198,14 @@
 			baseConfigurationReference = 987F3660115083398184331A /* Pods-TTCreditCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LM8ESFRBK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TTCreditCard/APPStart/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "$(SDK_ROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = TTCreditCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1204,13 +1247,14 @@
 			baseConfigurationReference = 84E1658F674E94FC208F6189 /* Pods-TTCreditCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LM8ESFRBK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TTCreditCard/APPStart/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "$(SDK_ROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = TTCreditCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",

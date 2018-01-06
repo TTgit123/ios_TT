@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     [self addView];
     // Do any additional setup after loading the view.
 }

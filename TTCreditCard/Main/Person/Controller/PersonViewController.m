@@ -9,13 +9,16 @@
 #import "PersonViewController.h"
 //控制器
 #import "TTDownloadViewController.h"
+
 //视图
 #import "DetailedView.h"
+
 #define TARRAY @[@[@"修改密码",@"基本资料",@"实名认证"],@[@"提现申请",@"充值"],@[@"公告通知",@"帮助中心",@"版本信息",@"全国客服电话：4009925722"],@[@"安全退出"]]
 @interface PersonViewController ()<UITableViewDelegate,UITableViewDataSource,DetailedViewDelegate>
 @property (nonatomic,strong) DetailedView * detailedView;
 
 @property (nonatomic,strong) UITableView * mainTableView;
+
 
 @end
 
@@ -105,6 +108,7 @@
             make.left.equalTo(headerView);
             make.right.equalTo(headerView);
         }];
+
         return headerView;
     }
     return nil;
@@ -215,7 +219,7 @@
 #pragma mark - TTDelegate
 -(void)tapHeadView
 {
-
+    
 }
 #pragma mark - ViewCycle
 - (void)viewWillAppear:(BOOL)animated {
@@ -226,4 +230,5 @@
     [super viewWillDisappear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
+
 @end

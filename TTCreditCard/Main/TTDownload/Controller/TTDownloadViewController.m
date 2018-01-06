@@ -54,7 +54,10 @@
 {
 
     [_segmentSamp.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.top.offset(-64);
+        make.left.offset(0);
+        make.right.offset(0);
+        make.bottom.offset(0);
     }];
 }
 #pragma mark - getter
