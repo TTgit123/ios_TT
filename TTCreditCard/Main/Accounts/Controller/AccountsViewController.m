@@ -8,7 +8,7 @@
 
 #import "AccountsViewController.h"
 
-@interface AccountsViewController ()
+@interface AccountsViewController ()<JMDropMenuDelegate>
 
 @end
 
@@ -33,15 +33,18 @@
         [btn.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [btn setTitle:@"筛选" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        [btn addTarget:self action:@selector(siftAction) forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:self action:@selector(siftAction:) forControlEvents:UIControlEventTouchUpInside];
         UIBarButtonItem *siftBarItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
         self.navigationItem.rightBarButtonItem = siftBarItem;
     }
     return self;
 }
--(void)siftAction
+-(void)siftAction:(UIButton *)sender
 {
     NSLog(@"点击了筛选");
+    [JMDropMenu showDropMenuFrame:CGRectMake(self.view.frame.size.width - 128, 64, 120, 208) ArrowOffset:102.f TitleArr:@[@"创建群聊",@"加好友/群",@"扫一扫",@"付款",@"拍摄"] ImageArr:@[@"img1",@"img2",@"img3",@"img4",@"img5"] Type:JMDropMenuTypeWeChat LayoutType:JMDropMenuLayoutTypeNormal RowHeight:40.f Delegate:self];
 }
-
+- (void)didSelectRowAtIndex:(NSInteger)index Title:(NSString *)title Image:(NSString *)image {
+    NSLog(@"index----%zd,  title---%@, image---%@", index, title, image);
+}
 @end

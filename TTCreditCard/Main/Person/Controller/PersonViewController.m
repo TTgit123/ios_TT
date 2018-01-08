@@ -9,6 +9,8 @@
 #import "PersonViewController.h"
 //控制器
 #import "TTDownloadViewController.h"
+#import "MMScanViewController.h"
+
 
 //视图
 #import "DetailedView.h"
@@ -165,7 +167,15 @@
             break;
         case 1:{
             if (indexPath.row == 0) {
-
+                MMScanViewController *scanVc = [[MMScanViewController alloc] initWithQrType:MMScanTypeAll onFinish:^(NSString *result, NSError *error) {
+                    if (error) {
+                        NSLog(@"error: %@",error);
+                    } else {
+                        NSLog(@"扫描结果：%@",result);
+                        [YJProgressHUD showProgress:result inView:self.view];
+                    }
+                }];
+                [self.navigationController pushViewController:scanVc animated:YES];
             }
             else
             {

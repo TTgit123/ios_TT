@@ -63,6 +63,14 @@
 		CC8C9E0620032A1800A67BE3 /* WLWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFF20032A1800A67BE3 /* WLWebProgressLayer.m */; };
 		CC8C9E0720032A1800A67BE3 /* WYWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9E0120032A1800A67BE3 /* WYWebController.m */; };
 		CC8C9E0820032A1800A67BE3 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */; };
+		CCC3669C200360320032B3CD /* AppDelegate+TTCreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC3669B200360320032B3CD /* AppDelegate+TTCreditCard.m */; };
+		CCC366D6200367770032B3CD /* NSString+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366D5200367770032B3CD /* NSString+Handler.m */; };
+		CCC366DC200368A50032B3CD /* AffiliateBank.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC366DA200368A50032B3CD /* AffiliateBank.plist */; };
+		CCC366DD200368A50032B3CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC366DB200368A50032B3CD /* Info.plist */; };
+		CCC366E520036D8D0032B3CD /* MMScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366E120036D8D0032B3CD /* MMScanView.m */; };
+		CCC366E620036D8D0032B3CD /* MMScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366E320036D8D0032B3CD /* MMScanViewController.m */; };
+		CCC366E720036D8D0032B3CD /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCC366E420036D8D0032B3CD /* resource.bundle */; };
+		CCC366EB200373A50032B3CD /* JMDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366EA200373A50032B3CD /* JMDropMenu.m */; };
 		CCDEBDA21FFF4DFE00F1777C /* DetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */; };
 		CCDEBDA51FFF516B00F1777C /* apic3734.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA41FFF516B00F1777C /* apic3734.png */; };
 		CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA61FFF519700F1777C /* personal-center@3x.png */; };
@@ -108,7 +116,6 @@
 		CC0963241FFDC07000D3FAD1 /* TTCreditCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCreditCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0963301FFDC07000D3FAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC0963331FFDC07000D3FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC0963351FFDC07000D3FAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0963361FFDC07000D3FAD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC09633C1FFDC07000D3FAD1 /* TTCreditCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCreditCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0963401FFDC07000D3FAD1 /* TTCreditCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCreditCardTests.m; sourceTree = "<group>"; };
@@ -213,6 +220,19 @@
 		CC8C9E0120032A1800A67BE3 /* WYWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebController.m; sourceTree = "<group>"; };
 		CC8C9E0220032A1800A67BE3 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
 		CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
+		CCC3669A200360320032B3CD /* AppDelegate+TTCreditCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+TTCreditCard.h"; sourceTree = "<group>"; };
+		CCC3669B200360320032B3CD /* AppDelegate+TTCreditCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TTCreditCard.m"; sourceTree = "<group>"; };
+		CCC366D4200367770032B3CD /* NSString+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Handler.h"; sourceTree = "<group>"; };
+		CCC366D5200367770032B3CD /* NSString+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Handler.m"; sourceTree = "<group>"; };
+		CCC366DA200368A50032B3CD /* AffiliateBank.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AffiliateBank.plist; sourceTree = "<group>"; };
+		CCC366DB200368A50032B3CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC366E020036D8D0032B3CD /* MMScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScanView.h; sourceTree = "<group>"; };
+		CCC366E120036D8D0032B3CD /* MMScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScanView.m; sourceTree = "<group>"; };
+		CCC366E220036D8D0032B3CD /* MMScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScanViewController.h; sourceTree = "<group>"; };
+		CCC366E320036D8D0032B3CD /* MMScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScanViewController.m; sourceTree = "<group>"; };
+		CCC366E420036D8D0032B3CD /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		CCC366E9200373A50032B3CD /* JMDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDropMenu.h; sourceTree = "<group>"; };
+		CCC366EA200373A50032B3CD /* JMDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDropMenu.m; sourceTree = "<group>"; };
 		CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedView.m; sourceTree = "<group>"; };
 		CCDEBDA11FFF4DFE00F1777C /* DetailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedView.h; sourceTree = "<group>"; };
 		CCDEBDA41FFF516B00F1777C /* apic3734.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apic3734.png; sourceTree = "<group>"; };
@@ -314,14 +334,14 @@
 		CC0963261FFDC07000D3FAD1 /* TTCreditCard */ = {
 			isa = PBXGroup;
 			children = (
+				CCC366DE200368C70032B3CD /* Plist */,
 				CC0964001FFDE6F700D3FAD1 /* Images */,
 				CC0963721FFDC5FE00D3FAD1 /* Doom */,
 				CC09636E1FFDC5AA00D3FAD1 /* Base */,
 				CC09635D1FFDC4FB00D3FAD1 /* Main */,
 				CC0963591FFDC3EC00D3FAD1 /* APPStart */,
-				CC0963301FFDC07000D3FAD1 /* Assets.xcassets */,
 				CC0963321FFDC07000D3FAD1 /* LaunchScreen.storyboard */,
-				CC0963351FFDC07000D3FAD1 /* Info.plist */,
+				CC0963301FFDC07000D3FAD1 /* Assets.xcassets */,
 				CC0963361FFDC07000D3FAD1 /* main.m */,
 			);
 			path = TTCreditCard;
@@ -350,6 +370,8 @@
 			children = (
 				CC09635A1FFDC3EC00D3FAD1 /* AppDelegate.h */,
 				CC09635B1FFDC3EC00D3FAD1 /* AppDelegate.m */,
+				CCC3669A200360320032B3CD /* AppDelegate+TTCreditCard.h */,
+				CCC3669B200360320032B3CD /* AppDelegate+TTCreditCard.m */,
 				CC0963E71FFDC69600D3FAD1 /* TTRootViewController.h */,
 				CC0963E81FFDC69600D3FAD1 /* TTRootViewController.m */,
 				CCDEBDE22000604A00F1777C /* LBTabBar.h */,
@@ -532,6 +554,8 @@
 		CC0963731FFDC5FE00D3FAD1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CCC366D4200367770032B3CD /* NSString+Handler.h */,
+				CCC366D5200367770032B3CD /* NSString+Handler.m */,
 				CCDEBDDD20005FD500F1777C /* UIImage+Image.h */,
 				CCDEBDDE20005FD500F1777C /* UIImage+Image.m */,
 				CCDEBDDC20005FD400F1777C /* UIView+LBExtension.h */,
@@ -547,6 +571,8 @@
 		CC0963781FFDC5FE00D3FAD1 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				CCC366E8200373A50032B3CD /* JMDropMenu */,
+				CCC366DF20036D8D0032B3CD /* MMScanner */,
 				CC8C9DF920032A1800A67BE3 /* Web */,
 				CCDEBDEB20009EB500F1777C /* stretchTableHeader */,
 				CCDEBDC61FFF668200F1777C /* XHSegmentController */,
@@ -706,6 +732,36 @@
 				CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */,
 			);
 			path = Web;
+			sourceTree = "<group>";
+		};
+		CCC366DE200368C70032B3CD /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				CCC366DA200368A50032B3CD /* AffiliateBank.plist */,
+				CCC366DB200368A50032B3CD /* Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		CCC366DF20036D8D0032B3CD /* MMScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CCC366E020036D8D0032B3CD /* MMScanView.h */,
+				CCC366E120036D8D0032B3CD /* MMScanView.m */,
+				CCC366E220036D8D0032B3CD /* MMScanViewController.h */,
+				CCC366E320036D8D0032B3CD /* MMScanViewController.m */,
+				CCC366E420036D8D0032B3CD /* resource.bundle */,
+			);
+			path = MMScanner;
+			sourceTree = "<group>";
+		};
+		CCC366E8200373A50032B3CD /* JMDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CCC366E9200373A50032B3CD /* JMDropMenu.h */,
+				CCC366EA200373A50032B3CD /* JMDropMenu.m */,
+			);
+			path = JMDropMenu;
 			sourceTree = "<group>";
 		};
 		CCDEBD9C1FFF4C4400F1777C /* TTDownload */ = {
@@ -918,7 +974,10 @@
 				CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */,
 				CC0963C81FFDC5FE00D3FAD1 /* JQTest.png in Resources */,
 				CC0963D81FFDC5FE00D3FAD1 /* CityData.plist in Resources */,
+				CCC366DC200368A50032B3CD /* AffiliateBank.plist in Resources */,
+				CCC366E720036D8D0032B3CD /* resource.bundle in Resources */,
 				CC0963E01FFDC5FE00D3FAD1 /* 返回@2x.png in Resources */,
+				CCC366DD200368A50032B3CD /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,6 +1026,7 @@
 				"${BUILT_PRODUCTS_DIR}/LBXScan/LBXScan.framework",
 				"${BUILT_PRODUCTS_DIR}/LEEAlert/LEEAlert.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -983,6 +1043,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBXScan.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LEEAlert.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1032,9 +1093,11 @@
 				CC0963F31FFDCC8400D3FAD1 /* AccountsViewController.m in Sources */,
 				CC0963E31FFDC5FE00D3FAD1 /* WYTableViewCellWithImageView.m in Sources */,
 				CC0963D21FFDC5FE00D3FAD1 /* JQZXCapture.m in Sources */,
+				CCC366E520036D8D0032B3CD /* MMScanView.m in Sources */,
 				CC0963D91FFDC5FE00D3FAD1 /* NicknameViewController.m in Sources */,
 				CC0963E61FFDC5FE00D3FAD1 /* TKDataService.m in Sources */,
 				CCDEBDB11FFF543F00F1777C /* TTDownloadViewController.m in Sources */,
+				CCC366E620036D8D0032B3CD /* MMScanViewController.m in Sources */,
 				CC0963DD1FFDC5FE00D3FAD1 /* WYGenderPickerView.m in Sources */,
 				CCDEBDCF1FFF668200F1777C /* XHSegmentViewController.m in Sources */,
 				CC0963E51FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.m in Sources */,
@@ -1045,6 +1108,7 @@
 				CCDEBDAD1FFF541400F1777C /* AppDelegate+Download.m in Sources */,
 				CC0963CD1FFDC5FE00D3FAD1 /* JQScanResult.m in Sources */,
 				CC0963711FFDC5AB00D3FAD1 /* BaseViewController.m in Sources */,
+				CCC366D6200367770032B3CD /* NSString+Handler.m in Sources */,
 				CC0963F91FFDCD2400D3FAD1 /* PersonViewController.m in Sources */,
 				CC0963D51FFDC5FE00D3FAD1 /* CXAHyperlinkLabel.m in Sources */,
 				CC0963CF1FFDC5FE00D3FAD1 /* JQScanView.m in Sources */,
@@ -1058,6 +1122,7 @@
 				CCDEBDA21FFF4DFE00F1777C /* DetailedView.m in Sources */,
 				CC0963DC1FFDC5FE00D3FAD1 /* WYCityPickerView.m in Sources */,
 				CCDEBDD21FFF6ADA00F1777C /* SegmentSampleViewController.m in Sources */,
+				CCC366EB200373A50032B3CD /* JMDropMenu.m in Sources */,
 				CC0963F01FFDCC2C00D3FAD1 /* HomeViewController.m in Sources */,
 				CCDEBDAE1FFF541400F1777C /* QSPDownloadTool.m in Sources */,
 				CCDEBDEE20009EB500F1777C /* HFStretchableTableHeaderView.m in Sources */,
@@ -1081,6 +1146,7 @@
 				CC0963F61FFDCCBE00D3FAD1 /* ApplyViewController.m in Sources */,
 				CC0963CC1FFDC5FE00D3FAD1 /* JQScanNetAnimation.m in Sources */,
 				CC0963C91FFDC5FE00D3FAD1 /* MyQRViewController.m in Sources */,
+				CCC3669C200360320032B3CD /* AppDelegate+TTCreditCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1277,6 +1343,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
 			};
 			name = Debug;
 		};
@@ -1326,6 +1393,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
 			};
 			name = Release;
 		};

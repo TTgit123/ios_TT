@@ -30,6 +30,7 @@ PODS:
   - LEEAlert (1.1.5)
   - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.15.1)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
   - SDWebImage (4.2.2):
@@ -52,6 +53,7 @@ DEPENDENCIES:
   - LEEAlert
   - Masonry
   - MBProgressHUD (~> 1.0.0)
+  - MJRefresh
   - SDCycleScrollView (~> 1.75)
   - SDWebImage
   - WebViewJavascriptBridge
@@ -68,6 +70,7 @@ SPEC CHECKSUMS:
   LEEAlert: e5db9c781a14dbb8d701cfe0f58a56f7a78f35cf
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
@@ -75,6 +78,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: 49be85dec6833c923476ad07611fdf5926bb3222
+PODFILE CHECKSUM: 7682a24e22e51110a230e459718fd8dde001270a
 
 COCOAPODS: 1.3.1

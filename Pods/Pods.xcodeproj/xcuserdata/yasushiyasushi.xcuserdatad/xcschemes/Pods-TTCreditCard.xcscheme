@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "765D37C9192972CA0E755D680482F213"
+               BlueprintIdentifier = "22928837D41F4B5B353D8FAF306E7A8E"
                BuildableName = "Pods_TTCreditCard.framework"
                BlueprintName = "Pods-TTCreditCard"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "765D37C9192972CA0E755D680482F213"
+            BlueprintIdentifier = "22928837D41F4B5B353D8FAF306E7A8E"
             BuildableName = "Pods_TTCreditCard.framework"
             BlueprintName = "Pods-TTCreditCard"
             ReferencedContainer = "container:Pods.xcodeproj">

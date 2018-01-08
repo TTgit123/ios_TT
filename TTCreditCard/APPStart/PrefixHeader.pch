@@ -19,18 +19,21 @@
 #import "TTColor.h"
 /*#############################################################*/
 #pragma mark - 第三方库
-#import "Masonry.h"
-#import "YYKit.h"
-#import "YJProgressHUD.h"
-#import "LEEAlert.h"
-#import "SDImageCache.h"
-#import "QSPDownloadTool.h"
-#import "WebViewJavascriptBridge.h"//H5对接
-#import "WYWebController.h"
+#import "Masonry.h"//自动布局框架
+#import "YYKit.h"//YY组合框架，项目中可用YYModel解析json转model
+#import "YJProgressHUD.h"//提示文本框（菊花）
+#import "LEEAlert.h"//弹出框
+#import "SDImageCache.h"//图片异步框架
+#import "QSPDownloadTool.h"//多任务断点下载框架
+#import "WebViewJavascriptBridge.h"//H5对接JS框架
+#import "WYWebController.h"//进度条网页框架
+#import "MJRefresh.h"//上下拉刷新框架
 /*#############################################################*/
 #pragma mark - 自定义类
 #import "UIImage+Verb.h"
 #import "UIColor+RGB.h"
 #import "BaseViewController.h"
 #import "TKDataService.h"
+#import "NSString+Handler.h"
+#import "JMDropMenu.h"
 #endif /* PrefixHeader_pch */
