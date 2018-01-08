@@ -58,6 +58,11 @@
 		CC0963F91FFDCD2400D3FAD1 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963F81FFDCD2400D3FAD1 /* PersonViewController.m */; };
 		CC0963FB1FFDCDFF00D3FAD1 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0963FA1FFDCDFE00D3FAD1 /* libxml2.2.tbd */; };
 		CC0963FD1FFDCE5100D3FAD1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */; };
+		CC8C9E0420032A1800A67BE3 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFB20032A1800A67BE3 /* NSTimer+addition.m */; };
+		CC8C9E0520032A1800A67BE3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFD20032A1800A67BE3 /* UIView+Frame.m */; };
+		CC8C9E0620032A1800A67BE3 /* WLWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFF20032A1800A67BE3 /* WLWebProgressLayer.m */; };
+		CC8C9E0720032A1800A67BE3 /* WYWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9E0120032A1800A67BE3 /* WYWebController.m */; };
+		CC8C9E0820032A1800A67BE3 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */; };
 		CCDEBDA21FFF4DFE00F1777C /* DetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */; };
 		CCDEBDA51FFF516B00F1777C /* apic3734.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA41FFF516B00F1777C /* apic3734.png */; };
 		CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA61FFF519700F1777C /* personal-center@3x.png */; };
@@ -198,6 +203,16 @@
 		CC0963FA1FFDCDFE00D3FAD1 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		CC0963FE1FFDD43000D3FAD1 /* TTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTColor.h; sourceTree = "<group>"; };
+		CC8C9DFA20032A1800A67BE3 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		CC8C9DFB20032A1800A67BE3 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		CC8C9DFC20032A1800A67BE3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CC8C9DFD20032A1800A67BE3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CC8C9DFE20032A1800A67BE3 /* WLWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLWebProgressLayer.h; sourceTree = "<group>"; };
+		CC8C9DFF20032A1800A67BE3 /* WLWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLWebProgressLayer.m; sourceTree = "<group>"; };
+		CC8C9E0020032A1800A67BE3 /* WYWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebController.h; sourceTree = "<group>"; };
+		CC8C9E0120032A1800A67BE3 /* WYWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebController.m; sourceTree = "<group>"; };
+		CC8C9E0220032A1800A67BE3 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
 		CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedView.m; sourceTree = "<group>"; };
 		CCDEBDA11FFF4DFE00F1777C /* DetailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedView.h; sourceTree = "<group>"; };
 		CCDEBDA41FFF516B00F1777C /* apic3734.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apic3734.png; sourceTree = "<group>"; };
@@ -532,6 +547,7 @@
 		CC0963781FFDC5FE00D3FAD1 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				CC8C9DF920032A1800A67BE3 /* Web */,
 				CCDEBDEB20009EB500F1777C /* stretchTableHeader */,
 				CCDEBDC61FFF668200F1777C /* XHSegmentController */,
 				CCDEBDA81FFF541400F1777C /* QSPDownload */,
@@ -673,6 +689,23 @@
 				CCDEBDA31FFF516B00F1777C /* Default */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		CC8C9DF920032A1800A67BE3 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				CC8C9DFA20032A1800A67BE3 /* NSTimer+addition.h */,
+				CC8C9DFB20032A1800A67BE3 /* NSTimer+addition.m */,
+				CC8C9DFC20032A1800A67BE3 /* UIView+Frame.h */,
+				CC8C9DFD20032A1800A67BE3 /* UIView+Frame.m */,
+				CC8C9DFE20032A1800A67BE3 /* WLWebProgressLayer.h */,
+				CC8C9DFF20032A1800A67BE3 /* WLWebProgressLayer.m */,
+				CC8C9E0020032A1800A67BE3 /* WYWebController.h */,
+				CC8C9E0120032A1800A67BE3 /* WYWebController.m */,
+				CC8C9E0220032A1800A67BE3 /* WYWebProgressLayer.h */,
+				CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 		CCDEBD9C1FFF4C4400F1777C /* TTDownload */ = {
@@ -994,6 +1027,8 @@
 				CC0963371FFDC07000D3FAD1 /* main.m in Sources */,
 				CC0963C51FFDC5FE00D3FAD1 /* JQScanResultViewController.m in Sources */,
 				CC0963DB1FFDC5FE00D3FAD1 /* WYBirthdayPickerView.m in Sources */,
+				CC8C9E0620032A1800A67BE3 /* WLWebProgressLayer.m in Sources */,
+				CC8C9E0420032A1800A67BE3 /* NSTimer+addition.m in Sources */,
 				CC0963F31FFDCC8400D3FAD1 /* AccountsViewController.m in Sources */,
 				CC0963E31FFDC5FE00D3FAD1 /* WYTableViewCellWithImageView.m in Sources */,
 				CC0963D21FFDC5FE00D3FAD1 /* JQZXCapture.m in Sources */,
@@ -1005,6 +1040,7 @@
 				CC0963E51FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.m in Sources */,
 				CC0963C71FFDC5FE00D3FAD1 /* JQScanViewController.m in Sources */,
 				CC0963E91FFDC69600D3FAD1 /* TTRootViewController.m in Sources */,
+				CC8C9E0820032A1800A67BE3 /* WYWebProgressLayer.m in Sources */,
 				CC0963DE1FFDC5FE00D3FAD1 /* WYHeightPickerView.m in Sources */,
 				CCDEBDAD1FFF541400F1777C /* AppDelegate+Download.m in Sources */,
 				CC0963CD1FFDC5FE00D3FAD1 /* JQScanResult.m in Sources */,
@@ -1026,6 +1062,7 @@
 				CCDEBDAE1FFF541400F1777C /* QSPDownloadTool.m in Sources */,
 				CCDEBDEE20009EB500F1777C /* HFStretchableTableHeaderView.m in Sources */,
 				CCDEBDCD1FFF668200F1777C /* XHSegmentControl.m in Sources */,
+				CC8C9E0720032A1800A67BE3 /* WYWebController.m in Sources */,
 				CC0963D71FFDC5FE00D3FAD1 /* NSString+CXAHyperlinkParser.m in Sources */,
 				CCDEBDE42000604A00F1777C /* LBTabBar.m in Sources */,
 				CC0963D61FFDC5FE00D3FAD1 /* NSAttributedString+CXACoreTextFrameSize.m in Sources */,
@@ -1035,6 +1072,7 @@
 				CCDEBDD81FFF73D800F1777C /* DownloadTableViewController.m in Sources */,
 				CC0963E41FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m in Sources */,
 				CCDEBDE020005FD500F1777C /* UIImage+Image.m in Sources */,
+				CC8C9E0520032A1800A67BE3 /* UIView+Frame.m in Sources */,
 				CC0963CE1FFDC5FE00D3FAD1 /* JQScanVideoZoomView.m in Sources */,
 				CC0963D11FFDC5FE00D3FAD1 /* JQScanWrapper.m in Sources */,
 				CC0963CA1FFDC5FE00D3FAD1 /* JQScanLineAnimation.m in Sources */,

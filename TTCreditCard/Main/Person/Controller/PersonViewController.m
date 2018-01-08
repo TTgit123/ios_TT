@@ -169,16 +169,21 @@
             }
             else
             {
-
+                WYWebController *webVC = [WYWebController new];
+                webVC.url = @"https://www.baidu.com";
+                [self.navigationController pushViewController:webVC animated:YES];
             }
         }
             break;
         case 2:{
             if (indexPath.row == 0) {
+                //公告通知
                 [YJProgressHUD showMessage:@"公告通知" inView:self.view];
+
             }
             else if (indexPath.row == 1)
             {
+                //帮助中心
 //                [YJProgressHUD showMessage:@"帮助中心" inView:self.view];
                 TTDownloadViewController * downVC = [[TTDownloadViewController alloc]init];
                 [downVC setHidesBottomBarWhenPushed:YES];
@@ -190,6 +195,7 @@
             }
             else
             {
+                //客服电话
                 NSMutableString *str=[[NSMutableString alloc] initWithFormat:@"tel:%@",@"4009925722"];
                 UIWebView *callWebview = [[UIWebView alloc] init];
                 [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];

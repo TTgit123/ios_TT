@@ -25,7 +25,8 @@
 #import "LEEAlert.h"
 #import "SDImageCache.h"
 #import "QSPDownloadTool.h"
-#import "WebViewJavascriptBridge.h"
+#import "WebViewJavascriptBridge.h"//H5对接
+#import "WYWebController.h"
 /*#############################################################*/
 #pragma mark - 自定义类
 #import "UIImage+Verb.h"

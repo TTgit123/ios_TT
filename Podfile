@@ -15,4 +15,5 @@ pod ‘LBXScan’
 pod 'YJProgressHUD'
 pod 'LEEAlert'
 pod 'WebViewJavascriptBridge'
+pod 'JPush'
 end

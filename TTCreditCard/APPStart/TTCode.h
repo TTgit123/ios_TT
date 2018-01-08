@@ -42,6 +42,10 @@
 #define IOSVersion_10         (DEVICE_OS_VERSION_VALUE >= 10.0 && DEVICE_OS_VERSION_VALUE < 11.0)
 #define IOSVersion_11         (DEVICE_OS_VERSION_VALUE >= 11.0 && DEVICE_OS_VERSION_VALUE < 12.0)
 
+//判断系统版本特性代码
+//#define __IPHONE_7_0 7000
+//#define __IPHONE_10_0 10000
+
 /*###########################################################################################################*/
 // app版本号
 #define DEVICE_APP_VERSION (NSString *)[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
