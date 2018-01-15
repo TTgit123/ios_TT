@@ -14,7 +14,8 @@
 #import "BaseNavigationViewController.h"
 //view
 #import "LBTabBar.h"
-
+//model
+#import "TTHomeModel.h"
 
 @interface TTRootViewController ()<LBTabBarDelegate>
 
@@ -58,24 +59,6 @@
     self = [super init];
     if (self) {
         [UITabBar appearance].translucent = NO;
-//        HomeViewController *homeVC=[[HomeViewController alloc] init];
-//        [self setTabBarItem:homeVC title:@"首页" selectedImage:@"home_red" normalImage:@"home_gay" isHiden:NO];
-//
-//        AccountsViewController *nounVC=[[AccountsViewController alloc] init];
-//        [self setTabBarItem:nounVC title:@"账本" selectedImage:@"noun_red" normalImage:@"noun_gay" isHiden:NO];
-//
-//        ApplyViewController *verbVC=[[ApplyViewController alloc] init];
-//        [self setTabBarItem:verbVC title:@"应用" selectedImage:@"verb_red" normalImage:@"verb_gay" isHiden:NO];
-//
-//        PersonViewController *myVC=[[PersonViewController alloc] init];
-//        [self setTabBarItem:myVC title:@"我的" selectedImage:@"my_red" normalImage:@"my_gay" isHiden:NO];
-//
-//        UINavigationController *homeNV = [[UINavigationController alloc] initWithRootViewController:homeVC];
-//        UINavigationController *nounNV = [[UINavigationController alloc] initWithRootViewController:nounVC];
-//        UINavigationController *verbNV = [[UINavigationController alloc] initWithRootViewController:verbVC];
-//        UINavigationController *myNV = [[UINavigationController alloc] initWithRootViewController:myVC];
-//        self.viewControllers = @[homeNV,nounNV,verbNV,myNV];
-//        self.selectedIndex = 0;
         HomeViewController *homeVC=[[HomeViewController alloc] init];
         [self setUpOneChildVcWithVc:homeVC Image:@"home_gay" selectedImage:@"home_red" title:@"首页"];
         AccountsViewController *nounVC=[[AccountsViewController alloc] init];
@@ -84,36 +67,21 @@
         [self setUpOneChildVcWithVc:verbVC Image:@"verb_gay" selectedImage:@"verb_red" title:@"应用"];
         PersonViewController *myVC=[[PersonViewController alloc] init];
         [self setUpOneChildVcWithVc:myVC Image:@"my_gay" selectedImage:@"my_red" title:@"我的"];
-        
-        
-        //创建自己的tabbar，然后用kvc将自己的tabbar和系统的tabBar替换下
-        LBTabBar *tabbar = [[LBTabBar alloc] init];
-        tabbar.myDelegate = self;
-        //kvc实质是修改了系统的_tabBar
-        [self setValue:tabbar forKeyPath:@"tabBar"];
+
+//
+//        //创建自己的tabbar，然后用kvc将自己的tabbar和系统的tabBar替换下
+//        LBTabBar *tabbar = [[LBTabBar alloc] init];
+//        tabbar.myDelegate = self;
+//        //kvc实质是修改了系统的_tabBar
+//        [self setValue:tabbar forKeyPath:@"tabBar"];
     }
     return self;
 }
-- (void)setTabBarItem:(UIViewController *)VC title:(NSString *)title selectedImage:(NSString *)selectedImage normalImage:(NSString *)normalImage isHiden:(BOOL)hiden
-{
-    //设置图片
-    UITabBarItem * tabbarItem = VC.tabBarItem;
-    tabbarItem = [tabbarItem initWithTitle:title image:[[UIImage imageNamed:normalImage]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:selectedImage]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
-    
-    // S未选中字体颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor],NSFontAttributeName:[UIFont fontWithName:@"HeiTi SC" size:13.0f]} forState:UIControlStateNormal];
-    
-    // 选中字体颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor],NSFontAttributeName:[UIFont fontWithName:@"HeiTi SC" size:13.0f]} forState:UIControlStateSelected];
-    VC.title = title;
-}
+
 - (void)setUpOneChildVcWithVc:(UIViewController *)Vc Image:(NSString *)image selectedImage:(NSString *)selectedImage title:(NSString *)title
 {
     BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:Vc];
-    
-    
-//    Vc.view.backgroundColor = [self randomColor];
-    
+
     UIImage *myImage = [UIImage imageNamed:image];
     myImage = [myImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
@@ -138,7 +106,6 @@
     
     NSLog(@"点击了中间按钮");
     
-    
 }
 - (UIColor *)randomColor
 {
@@ -148,5 +115,26 @@
     return [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0];
     
 }
+-(void)viewWillLayoutSubviews{
+    
+    [super viewWillLayoutSubviews];
+    
+    if (iPhoneX) {
+        
+        CGRect frame = self.tabBar.frame;
+        frame.size.height = TabbarHeight;
+        frame.origin.y = self.view.frame.size.height - frame.size.height;
+        self.tabBar.frame = frame;
+        for (UITabBarItem *item in self.tabBar.items) {
+            item.imageInsets = UIEdgeInsetsMake(0,0, -15, 0);
+            [item setTitlePositionAdjustment:UIOffsetMake(0, 10)];
+        }
 
+    }
+    NSLog(@"tabbar.height2 == %lf",self.tabBar.frame.size.height);
+}
+
+-(BOOL)prefersHomeIndicatorAutoHidden{
+    return YES;
+}
 @end

@@ -54,7 +54,7 @@
 {
 
     [_segmentSamp.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.offset(-64);
+        make.top.offset(0);
         make.left.offset(0);
         make.right.offset(0);
         make.bottom.offset(0);

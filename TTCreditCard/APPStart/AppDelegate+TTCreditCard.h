@@ -19,6 +19,8 @@
 #define PushChannel @"App Store"
 #define PushIsProduction NO
 @interface AppDelegate (TTCreditCard)<JPUSHRegisterDelegate>
+typedef void (^NetBlock)(BOOL isNet);
 -(void)TTRootViewController;//初始化控制器
 -(void)TTPushWithLaunchOptions:(NSDictionary *)launchOptions;//初始化极光推送
+- (void)AFNetworkStatusWithNetBlock:(NetBlock)block;//网络监测
 @end

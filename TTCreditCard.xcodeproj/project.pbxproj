@@ -50,7 +50,6 @@
 		CC0963E31FFDC5FE00D3FAD1 /* WYTableViewCellWithImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963B91FFDC5FE00D3FAD1 /* WYTableViewCellWithImageView.m */; };
 		CC0963E41FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963BC1FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m */; };
 		CC0963E51FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963BE1FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.m */; };
-		CC0963E61FFDC5FE00D3FAD1 /* TKDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963C11FFDC5FE00D3FAD1 /* TKDataService.m */; };
 		CC0963E91FFDC69600D3FAD1 /* TTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963E81FFDC69600D3FAD1 /* TTRootViewController.m */; };
 		CC0963F01FFDCC2C00D3FAD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963EF1FFDCC2C00D3FAD1 /* HomeViewController.m */; };
 		CC0963F31FFDCC8400D3FAD1 /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963F21FFDCC8400D3FAD1 /* AccountsViewController.m */; };
@@ -58,11 +57,14 @@
 		CC0963F91FFDCD2400D3FAD1 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0963F81FFDCD2400D3FAD1 /* PersonViewController.m */; };
 		CC0963FB1FFDCDFF00D3FAD1 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0963FA1FFDCDFE00D3FAD1 /* libxml2.2.tbd */; };
 		CC0963FD1FFDCE5100D3FAD1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */; };
+		CC7C92FF200C5D02007BDC87 /* LaunchImagese.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7C92FE200C5D02007BDC87 /* LaunchImagese.png */; };
 		CC8C9E0420032A1800A67BE3 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFB20032A1800A67BE3 /* NSTimer+addition.m */; };
 		CC8C9E0520032A1800A67BE3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFD20032A1800A67BE3 /* UIView+Frame.m */; };
 		CC8C9E0620032A1800A67BE3 /* WLWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9DFF20032A1800A67BE3 /* WLWebProgressLayer.m */; };
 		CC8C9E0720032A1800A67BE3 /* WYWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9E0120032A1800A67BE3 /* WYWebController.m */; };
 		CC8C9E0820032A1800A67BE3 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */; };
+		CCB5C4AD200734D3005EE022 /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5C4AC200734D2005EE022 /* ZXPUnicode.m */; };
+		CCB5C4B0200739C1005EE022 /* TTHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5C4AF200739C1005EE022 /* TTHomeModel.m */; };
 		CCC3669C200360320032B3CD /* AppDelegate+TTCreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC3669B200360320032B3CD /* AppDelegate+TTCreditCard.m */; };
 		CCC366D6200367770032B3CD /* NSString+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366D5200367770032B3CD /* NSString+Handler.m */; };
 		CCC366DC200368A50032B3CD /* AffiliateBank.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC366DA200368A50032B3CD /* AffiliateBank.plist */; };
@@ -71,6 +73,7 @@
 		CCC366E620036D8D0032B3CD /* MMScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366E320036D8D0032B3CD /* MMScanViewController.m */; };
 		CCC366E720036D8D0032B3CD /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCC366E420036D8D0032B3CD /* resource.bundle */; };
 		CCC366EB200373A50032B3CD /* JMDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366EA200373A50032B3CD /* JMDropMenu.m */; };
+		CCC366F02006F7340032B3CD /* TTDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC366EF2006F7340032B3CD /* TTDataService.m */; };
 		CCDEBDA21FFF4DFE00F1777C /* DetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */; };
 		CCDEBDA51FFF516B00F1777C /* apic3734.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA41FFF516B00F1777C /* apic3734.png */; };
 		CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDEBDA61FFF519700F1777C /* personal-center@3x.png */; };
@@ -194,8 +197,6 @@
 		CC0963BC1FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewCellWithBigLabel.m; sourceTree = "<group>"; };
 		CC0963BD1FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTableViewCellWithLabel.h; sourceTree = "<group>"; };
 		CC0963BE1FFDC5FE00D3FAD1 /* WYTableViewCellWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewCellWithLabel.m; sourceTree = "<group>"; };
-		CC0963C01FFDC5FE00D3FAD1 /* TKDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDataService.h; sourceTree = "<group>"; };
-		CC0963C11FFDC5FE00D3FAD1 /* TKDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKDataService.m; sourceTree = "<group>"; };
 		CC0963E71FFDC69600D3FAD1 /* TTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRootViewController.h; sourceTree = "<group>"; };
 		CC0963E81FFDC69600D3FAD1 /* TTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRootViewController.m; sourceTree = "<group>"; };
 		CC0963ED1FFDCA0700D3FAD1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -210,6 +211,7 @@
 		CC0963FA1FFDCDFE00D3FAD1 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		CC0963FC1FFDCE5000D3FAD1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		CC0963FE1FFDD43000D3FAD1 /* TTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTColor.h; sourceTree = "<group>"; };
+		CC7C92FE200C5D02007BDC87 /* LaunchImagese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImagese.png; sourceTree = "<group>"; };
 		CC8C9DFA20032A1800A67BE3 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
 		CC8C9DFB20032A1800A67BE3 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
 		CC8C9DFC20032A1800A67BE3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -220,6 +222,10 @@
 		CC8C9E0120032A1800A67BE3 /* WYWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebController.m; sourceTree = "<group>"; };
 		CC8C9E0220032A1800A67BE3 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
 		CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
+		CCB5C4AB200734D2005EE022 /* ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPUnicode.h; sourceTree = "<group>"; };
+		CCB5C4AC200734D2005EE022 /* ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicode.m; sourceTree = "<group>"; };
+		CCB5C4AE200739C1005EE022 /* TTHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTHomeModel.h; sourceTree = "<group>"; };
+		CCB5C4AF200739C1005EE022 /* TTHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTHomeModel.m; sourceTree = "<group>"; };
 		CCC3669A200360320032B3CD /* AppDelegate+TTCreditCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+TTCreditCard.h"; sourceTree = "<group>"; };
 		CCC3669B200360320032B3CD /* AppDelegate+TTCreditCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TTCreditCard.m"; sourceTree = "<group>"; };
 		CCC366D4200367770032B3CD /* NSString+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Handler.h"; sourceTree = "<group>"; };
@@ -233,6 +239,8 @@
 		CCC366E420036D8D0032B3CD /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
 		CCC366E9200373A50032B3CD /* JMDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDropMenu.h; sourceTree = "<group>"; };
 		CCC366EA200373A50032B3CD /* JMDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDropMenu.m; sourceTree = "<group>"; };
+		CCC366EE2006F7340032B3CD /* TTDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTDataService.h; sourceTree = "<group>"; };
+		CCC366EF2006F7340032B3CD /* TTDataService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDataService.m; sourceTree = "<group>"; };
 		CCDEBDA01FFF4DFE00F1777C /* DetailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedView.m; sourceTree = "<group>"; };
 		CCDEBDA11FFF4DFE00F1777C /* DetailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedView.h; sourceTree = "<group>"; };
 		CCDEBDA41FFF516B00F1777C /* apic3734.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apic3734.png; sourceTree = "<group>"; };
@@ -484,6 +492,8 @@
 		CC0963681FFDC4FB00D3FAD1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CCB5C4AE200739C1005EE022 /* TTHomeModel.h */,
+				CCB5C4AF200739C1005EE022 /* TTHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -571,6 +581,7 @@
 		CC0963781FFDC5FE00D3FAD1 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				CCB5C4AA200734D2005EE022 /* ZXPUnicode */,
 				CCC366E8200373A50032B3CD /* JMDropMenu */,
 				CCC366DF20036D8D0032B3CD /* MMScanner */,
 				CC8C9DF920032A1800A67BE3 /* Web */,
@@ -703,8 +714,8 @@
 		CC0963BF1FFDC5FE00D3FAD1 /* public */ = {
 			isa = PBXGroup;
 			children = (
-				CC0963C01FFDC5FE00D3FAD1 /* TKDataService.h */,
-				CC0963C11FFDC5FE00D3FAD1 /* TKDataService.m */,
+				CCC366EE2006F7340032B3CD /* TTDataService.h */,
+				CCC366EF2006F7340032B3CD /* TTDataService.m */,
 			);
 			path = public;
 			sourceTree = "<group>";
@@ -712,9 +723,18 @@
 		CC0964001FFDE6F700D3FAD1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CC7C92FD200C5D02007BDC87 /* App启动图 */,
 				CCDEBDA31FFF516B00F1777C /* Default */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		CC7C92FD200C5D02007BDC87 /* App启动图 */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C92FE200C5D02007BDC87 /* LaunchImagese.png */,
+			);
+			path = "App启动图";
 			sourceTree = "<group>";
 		};
 		CC8C9DF920032A1800A67BE3 /* Web */ = {
@@ -732,6 +752,15 @@
 				CC8C9E0320032A1800A67BE3 /* WYWebProgressLayer.m */,
 			);
 			path = Web;
+			sourceTree = "<group>";
+		};
+		CCB5C4AA200734D2005EE022 /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5C4AB200734D2005EE022 /* ZXPUnicode.h */,
+				CCB5C4AC200734D2005EE022 /* ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
 			sourceTree = "<group>";
 		};
 		CCC366DE200368C70032B3CD /* Plist */ = {
@@ -969,6 +998,7 @@
 				CC0963341FFDC07000D3FAD1 /* LaunchScreen.storyboard in Resources */,
 				CC0963E11FFDC5FE00D3FAD1 /* 返回@3x.png in Resources */,
 				CC0963C61FFDC5FE00D3FAD1 /* JQScanResultViewController.xib in Resources */,
+				CC7C92FF200C5D02007BDC87 /* LaunchImagese.png in Resources */,
 				CC0963C41FFDC5FE00D3FAD1 /* CodeScan.bundle in Resources */,
 				CC0963311FFDC07000D3FAD1 /* Assets.xcassets in Resources */,
 				CCDEBDA71FFF519700F1777C /* personal-center@3x.png in Resources */,
@@ -1095,7 +1125,6 @@
 				CC0963D21FFDC5FE00D3FAD1 /* JQZXCapture.m in Sources */,
 				CCC366E520036D8D0032B3CD /* MMScanView.m in Sources */,
 				CC0963D91FFDC5FE00D3FAD1 /* NicknameViewController.m in Sources */,
-				CC0963E61FFDC5FE00D3FAD1 /* TKDataService.m in Sources */,
 				CCDEBDB11FFF543F00F1777C /* TTDownloadViewController.m in Sources */,
 				CCC366E620036D8D0032B3CD /* MMScanViewController.m in Sources */,
 				CC0963DD1FFDC5FE00D3FAD1 /* WYGenderPickerView.m in Sources */,
@@ -1109,6 +1138,7 @@
 				CC0963CD1FFDC5FE00D3FAD1 /* JQScanResult.m in Sources */,
 				CC0963711FFDC5AB00D3FAD1 /* BaseViewController.m in Sources */,
 				CCC366D6200367770032B3CD /* NSString+Handler.m in Sources */,
+				CCB5C4B0200739C1005EE022 /* TTHomeModel.m in Sources */,
 				CC0963F91FFDCD2400D3FAD1 /* PersonViewController.m in Sources */,
 				CC0963D51FFDC5FE00D3FAD1 /* CXAHyperlinkLabel.m in Sources */,
 				CC0963CF1FFDC5FE00D3FAD1 /* JQScanView.m in Sources */,
@@ -1135,6 +1165,7 @@
 				CC09635C1FFDC3EC00D3FAD1 /* AppDelegate.m in Sources */,
 				CC0963E21FFDC5FE00D3FAD1 /* WYTableViewCellWithBigImageView.m in Sources */,
 				CCDEBDD81FFF73D800F1777C /* DownloadTableViewController.m in Sources */,
+				CCC366F02006F7340032B3CD /* TTDataService.m in Sources */,
 				CC0963E41FFDC5FE00D3FAD1 /* WYTableViewCellWithBigLabel.m in Sources */,
 				CCDEBDE020005FD500F1777C /* UIImage+Image.m in Sources */,
 				CC8C9E0520032A1800A67BE3 /* UIView+Frame.m in Sources */,
@@ -1144,6 +1175,7 @@
 				CCDEBDCE1FFF668200F1777C /* XHSegmentItem.m in Sources */,
 				CC0963C21FFDC5FE00D3FAD1 /* UIColor+RGB.m in Sources */,
 				CC0963F61FFDCCBE00D3FAD1 /* ApplyViewController.m in Sources */,
+				CCB5C4AD200734D3005EE022 /* ZXPUnicode.m in Sources */,
 				CC0963CC1FFDC5FE00D3FAD1 /* JQScanNetAnimation.m in Sources */,
 				CC0963C91FFDC5FE00D3FAD1 /* MyQRViewController.m in Sources */,
 				CCC3669C200360320032B3CD /* AppDelegate+TTCreditCard.m in Sources */,
@@ -1197,6 +1229,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1252,6 +1285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1302,7 +1336,6 @@
 			baseConfigurationReference = 987F3660115083398184331A /* Pods-TTCreditCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LM8ESFRBK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1352,7 +1385,6 @@
 			baseConfigurationReference = 84E1658F674E94FC208F6189 /* Pods-TTCreditCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LM8ESFRBK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

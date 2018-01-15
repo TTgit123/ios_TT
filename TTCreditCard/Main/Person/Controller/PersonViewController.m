@@ -172,7 +172,9 @@
                         NSLog(@"error: %@",error);
                     } else {
                         NSLog(@"扫描结果：%@",result);
-                        [YJProgressHUD showProgress:result inView:self.view];
+                        [YJProgressHUD showMessage:result inView:self.view];
+                        
+                        
                     }
                 }];
                 [self.navigationController pushViewController:scanVc animated:YES];
@@ -189,6 +191,7 @@
             if (indexPath.row == 0) {
                 //公告通知
                 [YJProgressHUD showMessage:@"公告通知" inView:self.view];
+                
 
             }
             else if (indexPath.row == 1)

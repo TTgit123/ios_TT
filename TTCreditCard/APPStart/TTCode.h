@@ -13,7 +13,10 @@
 //屏幕宽高
 #define KWight [UIScreen mainScreen].bounds.size.width
 #define KHight [UIScreen mainScreen].bounds.size.height
+#define KStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define TabbarHeight     ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49) // 适配iPhone x 底栏高度
 
+//_tabBarView.frame = CGRectMake(0, CurrentScreenHeight - TabbarHeight, CurrentScreenWidth, TabbarHeight);
 
 /*###########################################################################################################*/
 //判断设备类型

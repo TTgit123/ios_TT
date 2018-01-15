@@ -37,6 +37,28 @@
      apsForProduction:PushIsProduction];
     /*#########################################################################################*/
 }
+- (void)AFNetworkStatusWithNetBlock:(NetBlock)block
+{
+    
+    //1.创建网络监测者
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        if (status == AFNetworkReachabilityStatusReachableViaWiFi) {
+            //wifi网络
+            [YJProgressHUD showMsgWithoutView:@"网络状态不错"];
+        }
+        else if (status == AFNetworkReachabilityStatusReachableViaWWAN)
+        {
+            //手机自带网络
+            [YJProgressHUD showMsgWithoutView:@"网络状态不错"];
+        }
+        else
+        {
+            //无网络
+            [YJProgressHUD showMsgWithoutView:@"网络状态不稳定"];
+        }
+    }] ;
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+}
 /* ------------------------------------------放开解放极光推送
  #pragma mark - 注册APNS成功
  - (void)application:(UIApplication *)application

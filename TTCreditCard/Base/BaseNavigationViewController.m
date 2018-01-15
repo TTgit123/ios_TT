@@ -35,18 +35,14 @@
     dic[NSForegroundColorAttributeName]=[UIColor blackColor];
     [item setTitleTextAttributes:dic forState:UIControlStateNormal];
     
-    if (IOSVersion_9) {
-        if (@available(iOS 9.0, *)) {
-            UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
-            
-            [bar setBackgroundImage:[UIImage imageWithColor:NavBarColor] forBarMetrics:UIBarMetricsDefault];
-            NSMutableDictionary *dicBar=[NSMutableDictionary dictionary];
-            
-            dicBar[NSFontAttributeName]=[UIFont systemFontOfSize:15];
-            [bar setTitleTextAttributes:dic];
-        } else {
-            // Fallback on earlier versions
-        }
+    if (@available(iOS 9.0, *)) {
+        UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
+        
+        [bar setBackgroundImage:[UIImage imageWithColor:NavBarColor] forBarMetrics:UIBarMetricsDefault];
+        NSMutableDictionary *dicBar=[NSMutableDictionary dictionary];
+        
+        dicBar[NSFontAttributeName]=[UIFont systemFontOfSize:15];
+        [bar setTitleTextAttributes:dic];
     } else {
         // Fallback on earlier versions
     }
@@ -55,13 +51,21 @@
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     
+    // 修改tabBra的frame
+
+    CGRect frame = self.tabBarController.tabBar.frame;
+
+    frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
+
+    self.tabBarController.tabBar.frame = frame;
+
     if (self.viewControllers.count > 0) {
         
         viewController.hidesBottomBarWhenPushed = YES;
         
     }
-    
     return [super pushViewController:viewController animated:animated];
+    
 }
 
 @end
